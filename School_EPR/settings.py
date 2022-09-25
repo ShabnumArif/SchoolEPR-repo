@@ -25,13 +25,15 @@ SECRET_KEY = 'django-insecure-@vvq10v6u5p%ks%d^*=89=ip14*zzu+*qkj9iecilk44q8et(w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["schoolbaabtra.herokuapp.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'school_admin',
+    'teacher',
+    'Student',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
